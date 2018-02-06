@@ -6,13 +6,12 @@
 
 public class Line
 {
-	private int xOne,yOne, xTwo, yTwo;
+	private double xOne,yOne, xTwo, yTwo;
 	private double slope;
 
-	public void Line(int x1, int y1, int x2, int y2)
+	public void LineCalc(int x1, int y1, int x2, int y2)
 	{
 		setCoordinates(x1, y1, x2, y2);
-		calculateSlope();
 		print();
 
 	}
@@ -33,8 +32,9 @@ public class Line
 	}
 
 	public void print( )
-	{
-		System.out.println("The slope is: " + slope);
+	{	
+		calculateSlope();
+		System.out.println("The slope is: " + ((Math.round(slope * 100.0))/100.0));
 
 
 	}

@@ -10,8 +10,11 @@ public class Lab02f
    {
 		
 		Line calc = new Line();
-		calc.Line(1, 9, 14, 2);
-		calc.Line(1, 7, 18, 3);
+		calc.LineCalc(1, 9, 14, 2);
+		calc.LineCalc(1, 7, 18, 3);
+		calc.LineCalc(6, 4, 2, 2);
+		calc.LineCalc(4, 4,5, 3);
+		calc.LineCalc(1,1,2,9);
 		
 	}
 }
