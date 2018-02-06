@@ -8,10 +8,10 @@ public class Lab02f
 {
 	public static void main( String[] args )
    {
-		//add test cases
 		
-		//
-		
+		Line calc = new Line();
+		calc.Line(1, 9, 14, 2);
+		calc.Line(1, 7, 18, 3);
 		
 	}
 }

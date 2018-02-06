@@ -11,6 +11,7 @@ public class Fahrenheit
 	public void setFahrenheit(double fahren)
 	{
 		fahrenheit = fahren;
+		print();
 	}
 
 	public double getCelsius()

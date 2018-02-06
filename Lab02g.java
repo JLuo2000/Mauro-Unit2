@@ -2,7 +2,7 @@
 //Name - Jim Luo
 //Date - 2/5/18
 //Class - Mauro P1
-//Lab  - Celsius to Fahrenheit
+//Lab  - Fahrenheit to Celsius
 
 public class Lab02g
 {
